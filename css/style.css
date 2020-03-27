@@ -11,8 +11,10 @@ body {
     
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     text-align: center;
+    padding: 5px;
+    color: honeydew;
 }
 
 img {
@@ -20,4 +22,5 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
 }
