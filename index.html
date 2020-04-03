@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mainpage</title>
+    <title>PORTIFOLIO</title>
     <style>
 
     </style>
     <link rel="stylesheet" href="font/font.css">
     <link rel="stylesheet" href="css/mainPage.css">
+    <link rel="stylesheet" href="css/menu-toggle.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -17,31 +18,32 @@
                 <img src="images/logoPortifolio.png" alt="Logo">
             </a>
         </div>
-        <button class="menu-toggle">
-           <div class="menu-toggle-bars"></div>
-           <div class="menu-toggle-bars"></div>
-           <div class="menu-toggle-bars"></div>
-        </button>
-        <nav class="menu">
+       <nav class="menu">
             <ul>
-                <li>
-                    <a href="content/inicio.html">Início</a>
-                </li>
-                <li>
-                    <a href="content/projetos.html">Projetos</a>
-                </li>
-                <li>
-                    <a href="content/sobre.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="content/contato.html">Contato</a>
-                </li>
+                <li><a href="#content/inicio.html">Início</a></li>
+                <li><a href="#content/projetos.html">Projetos</a></li>
+                <li><a href="#content/sobre.html">Sobre</a></li>
+                <li><a href="#content/contato.html">Contato</a></li>
             </ul>
         </nav>
         <aside class="autenticacao">
             <a href="#login">Login</a>
             <a href="#registrar" class="botao destaque">Registrar</a>
         </aside>
+        <!-- Início do teste de menu toggle -->
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li><a href="#content/inicio.html">Início</a></li>
+                <li><a href="#content/projetos.html">Projetos</a></li>
+                <li><a href="#content/sobre.html">Sobre</a></li>
+                <li><a href="#content/contato.html">Contato</a></li>
+        <!-- Fim do teste de menu toggle --> 
     </header>
     <section id='conteudo'>
         <h1>teste</h1>

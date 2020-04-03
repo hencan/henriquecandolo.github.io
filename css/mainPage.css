@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background-color: lightgray;
+    background-color: rgba(33, 40, 60, 0.685);
 }
 
 .cabecalho {
@@ -29,24 +29,6 @@ body {
 
 .logo img {
     height: 100%;
-}
-
-.menu-toggle {
-    float: right;
-    color: #eee;
-    background-color: rgb(44, 53, 78);
-    border: solid 1px #777;
-    border-radius: 5px;
-    height: 40px;
-    padding: 5px 5px;
-    margin: 20px 10px;
-}
-
-.menu-toggle-bars {
-    width: 20px;
-    height: 3px;
-    background-color: #eee;
-    margin: 5px;
 }
 
 .menu {
@@ -93,12 +75,6 @@ body {
     color: #fff;
 }
 
-@media(min-width: 709.98px) {
-    .menu-toggle {
-        display: none;
-    }
-}
-
 @media(max-width: 710px) {
     .menu {
         display: none;
@@ -107,3 +83,4 @@ body {
         display: none;
     }
 }
+
