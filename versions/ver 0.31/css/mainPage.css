@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background: rgb(33,40,60);
+}
+
+.cabecalho {
+    background: rgb(33, 40, 60);
+    border-bottom: solid 5px rgb(249,189,90);
+    height: 80px;
+    box-sizing: content-box;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: rgb(249,189,90);
+    font-size: 1.3em;
+}
+
+.cabecalho p {
+    color:  rgb(238, 238, 238);
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    padding: 5px 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.menu a:hover, 
+.menu a.selected {
+    background-color: rgb(249,189,90);
+    color: #000;
+    border-radius: 3px;
+}
+
+@media(max-width: 501px) {
+    .menu {
+        display: none;
+    }
+    .autenticacao {
+        display: none;
+    }
+}
+
+#content {
+    color:  rgba(238, 238, 238, 0.788);
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+}

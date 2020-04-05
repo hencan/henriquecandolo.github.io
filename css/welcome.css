@@ -1,0 +1,32 @@
+#welcome1 {
+    padding-left: 10px;
+    width: 98%;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#welcome1off {
+    color: rgb(238, 238, 238);
+}
+
+#welcome2 {
+    padding-left: 10px;
+    width: 98%;
+    font-size: 88px;
+}
+
+#welcome2Bold {
+    font-weight: bolder;
+}
+
+#welcome3 {
+    padding-left: 10px;
+    width: 98%;
+    font-size: 105px;
+}
+
+#welcome4 {
+    padding-left: 10px;
+    width: 98%;
+    font-size: 130px;
+}

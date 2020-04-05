@@ -6,7 +6,7 @@
   margin-top: 5px;
   transform: translateX(150px);
   transition: transform 250ms ease-in-out;
-  background-color:rgb(22, 22, 22);
+  background-color: rgb(249,189,90);
 }
 .sidebarMenuInner {
   margin: 0;
@@ -15,7 +15,7 @@
 }
 .sidebarMenuInner li {
   list-style: none;
-  color: rgb(238, 238, 238);
+  color: rgb(53, 52, 52);
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px;
@@ -24,14 +24,13 @@
 }
 .sidebarMenuInner li span {
   display: block;
-  font-size: 10px;
-  color: rgb(238, 238, 238);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 .sidebarMenuInner li a {
-  color: rgb(238, 238, 238);
+  color: rgb(53, 52, 52);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 13px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -52,7 +51,7 @@ input[type="checkbox"] {
   z-index: 99;
   height: 100%;
   width: 100%;
-  top: 25px;
+  top: 30px;
   right: 15px;
   height: 22px;
   width: 22px;
@@ -63,7 +62,7 @@ input[type="checkbox"] {
   position: absolute;
   height: 3px;
   width: 100%;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(249,189,90);
 }
 .horizontal {
   transition: all 0.3s;
@@ -102,7 +101,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transform: rotate(-135deg);
   margin-top: -9px;
 }
-@media(min-width: 610.5px) {
+@media(min-width: 501px) {
   .sidebarIconToggle {
       display: none;
   }

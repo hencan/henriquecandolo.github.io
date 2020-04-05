@@ -4,38 +4,57 @@
 
 body {
     margin: 0;
-    font-family: 'Oswald', sans-serif;
-    background-color: rgb(33, 40, 60);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(238, 238, 238);
 }
 
 .cabecalho {
-    background: rgb(33, 40, 60);
-    border-bottom: solid 5px rgb(249,189,90);
-    height: 80px;
+    background:rgb(22, 22, 22);
+    border-bottom: solid 5px rgb(22, 22, 22);
+    height: 60px;
     box-sizing: content-box;
 }
 
 .cabecalho a {
     text-decoration: none;
-    color: rgba(238, 238, 238, 0.788);
-    font-size: 1.3em;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo {
     display: inline-block;
-    height: 80px;
-    padding: 5px 10px;
+    height: 60px;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    border: solid 6px rgb(22, 22, 22);
+    border-radius: 10px;
+    text-align: center;
 }
 
-.logo img {
-    height: 100%;
+#logo-nome {
+    font-size: 22px;
+    font-family: 'PhotographSignature', serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(25, 25, 25);
+
+}
+
+#logo-cargo {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 25, 25);
+
 }
 
 .menu {
     display: inline-block;
     vertical-align: top;
-    height: 80px;
-    padding: 25px;
+    height: 60px;
+    padding-top: 20px;
 }
 
 .menu ul {
@@ -48,28 +67,27 @@ body {
 }
 
 .menu a {
-    padding: 15px;
+    padding: 5px;
 }
 
 .menu a:hover, 
 .menu a.selected {
-    background-color: #4facdb;
-    color: #000;
+    background-color: rgb(238, 238, 238);
+    color: rgb(25, 25, 25);
     border-radius: 3px;
 }
 
-.autenticacao {
-    float: right;
-    height: 80px;
-    padding: 25px;
+#content {
+    color:  rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column; 
+    font-size-adjust: initial;
+    padding-left: 20px;
+    text-align: center;
 }
 
-@media(max-width: 501px) {
+@media(max-width: 610px) {
     .menu {
         display: none;
     }
-    .autenticacao {
-        display: none;
-    }
 }
-
