@@ -5,12 +5,12 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: rgb(238, 238, 238);
+    background: black
 }
 
 .cabecalho {
-    background:rgb(22, 22, 22);
-    border-bottom: solid 5px rgb(22, 22, 22);
+    background:black;
+    border-bottom: solid 5px black;
     height: 60px;
     box-sizing: content-box;
 }
@@ -27,26 +27,24 @@ body {
 .logo {
     display: inline-block;
     height: 60px;
-    padding: 0.25vw;
-    background-color: rgb(238, 238, 238);
-    border: solid 6px rgb(22, 22, 22);
-    border-radius: 10px;
+    padding: 1vw;
+    padding-right: 4vw;
     text-align: center;
 }
 
 #logo-nome {
-    font-size: 2vw;
+    font-size: 2.4vw;
     font-family: 'PhotographSignature', serif;
     font-style: italic;
     font-weight: bold;
-    color: rgb(25, 25, 25);
+    color: whitesmoke;
 
 }
 
 #logo-cargo {
     font-size: 0.6vw;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(25, 25, 25);
+    color: whitesmoke;
 
 }
 
@@ -85,4 +83,10 @@ body {
     .menu {
         display: none;
     }
+    #logo-nome {
+        font-size: 3vw;
+    }
+    
+    #logo-cargo {
+        font-size: 1vw;
 }
