@@ -1,7 +1,6 @@
 #welcome1 {
-    padding-left: 10px;
-    width: 98%;
-    font-size: 90px;
+    padding-top: 5vw;
+    font-size: 6.3vw;
     font-weight: bold;
 }
 
@@ -10,9 +9,7 @@
 }
 
 #welcome2 {
-    padding-left: 10px;
-    width: 98%;
-    font-size: 88px;
+    font-size: 6.3vw;
 }
 
 #welcome2Bold {
@@ -20,13 +17,9 @@
 }
 
 #welcome3 {
-    padding-left: 10px;
-    width: 98%;
-    font-size: 105px;
+    font-size: 7vw;
 }
 
 #welcome4 {
-    padding-left: 10px;
-    width: 98%;
-    font-size: 130px;
+    font-size: 9.5vw;
 }
