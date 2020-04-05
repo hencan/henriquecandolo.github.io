@@ -6,21 +6,21 @@
   margin-top: 5px;
   transform: translateX(150px);
   transition: transform 250ms ease-in-out;
-  background-color:rgb(22, 22, 22);
+  background-color: black;
 }
 .sidebarMenuInner {
   margin: 0;
   padding: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid whitesmoke;
 }
 .sidebarMenuInner li {
   list-style: none;
-  color: rgb(238, 238, 238);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px;
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid whitesmoke;
 }
 .sidebarMenuInner li span {
   display: block;

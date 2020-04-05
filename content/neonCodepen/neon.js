@@ -1,5 +1,5 @@
-var w = (c.width = window.innerWidth),
-  h = (c.height = window.innerHeight),
+var w = (c.width = window.innerWidth * 0.8),
+  h = (c.height = window.innerHeight * 0.5),
   ctx = c.getContext("2d"),
   opts = {
     len: 20,
