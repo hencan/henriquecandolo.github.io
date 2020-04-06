@@ -1,6 +1,7 @@
 #sidebarMenu {
   height: 100%;
   position: fixed;
+  overflow: auto;
   right: 0px;
   z-index: 99;
   width: 150px;
