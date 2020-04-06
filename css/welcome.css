@@ -36,18 +36,18 @@
 
 @media(max-width: 610px) {
     #welcome1 {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     #welcome2 {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     #welcome3 {
-        font-size: 65px;
+        font-size: 50px;
     }
 
     #welcome4 {
-        font-size: 82px;
+        font-size: 75px;
     }
 }
