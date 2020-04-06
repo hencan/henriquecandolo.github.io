@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 body {
@@ -9,17 +10,20 @@ body {
 }
 
 .cabecalho {
-    background:black;
-    border-bottom: solid 5px black;
-    height: 60px;
+    background-color: black;
+    border-bottom: solid 1px grey;
+    height: 65px;
+    width: 100vw;
     box-sizing: content-box;
+    position: fixed;
+    z-index: 99;
 }
 
 .cabecalho a {
     text-decoration: none;
     color: rgb(238, 238, 238);
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -27,7 +31,7 @@ body {
 .logo {
     display: inline-block;
     height: 60px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px 10px 20px;
     text-align: center;
 }
 
@@ -74,6 +78,14 @@ body {
     border-radius: 3px;
 }
 
+.canvas {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
 #content {
     color:  white;
     position: absolute;
@@ -81,6 +93,8 @@ body {
     left: 0;
     z-index: 0;
     padding: 30px 10px 10px 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
 
 @media(min-width: 610.5px) {
