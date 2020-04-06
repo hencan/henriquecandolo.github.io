@@ -12,7 +12,7 @@
 .sidebarMenuInner {
   margin: 0;
   padding: 0;
-  border-top: 1px solid whitesmoke;
+  border-top: 1px solid white;
 }
 .sidebarMenuInner li {
   list-style: none;
@@ -21,15 +21,15 @@
   font-weight: bold;
   padding: 20px;
   cursor: pointer;
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 1px solid white;
 }
 .sidebarMenuInner li span {
   display: block;
   font-size: 10px;
-  color: rgb(238, 238, 238);
+  color: white;
 }
 .sidebarMenuInner li a {
-  color: rgb(238, 238, 238);
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 13px;
@@ -64,7 +64,7 @@ input[type="checkbox"] {
   position: absolute;
   height: 3px;
   width: 100%;
-  background-color: rgb(238, 238, 238);
+  background-color: white;
 }
 .horizontal {
   transition: all 0.3s;
