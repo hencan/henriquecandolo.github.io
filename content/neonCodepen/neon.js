@@ -1,5 +1,5 @@
 var w = (c.width = window.innerWidth * 0.8),
-  h = (c.height = window.innerHeight * 0.5),
+  h = (c.height = window.innerHeight),
   ctx = c.getContext("2d"),
   opts = {
     len: 20,
@@ -30,7 +30,7 @@ var w = (c.width = window.innerWidth * 0.8),
   dieY = h / 2 / opts.len,
   baseRad = (Math.PI * 2) / 6;
 
-// ctx.globalAlpha = 0.8;
+
 ctx.fillStyle = "black";
 ctx.fillRect(0, 0, w, h);
 
@@ -39,7 +39,7 @@ function loop() {
 
   ++tick;
 
-  ctx.globalAlpha = 0.2;
+  
   ctx.globalCompositeOperation = "source-over";
   ctx.shadowBlur = 0;
   ctx.fillStyle = "rgba(0,0,0,alp)".replace("alp", opts.repaintAlpha);
@@ -111,7 +111,7 @@ Line.prototype.step = function () {
       opts.addedLight *
         Math.sin(this.cumulativeTime * this.lightInputMultiplier)
   );
-  ctx.globalAlpha = 0.2;
+  
   ctx.fillRect(
     opts.cx + (this.x + x) * opts.len,
     opts.cy + (this.y + y) * opts.len,

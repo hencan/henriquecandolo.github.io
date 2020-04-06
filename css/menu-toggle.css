@@ -2,6 +2,7 @@
   height: 100%;
   position: fixed;
   right: 0px;
+  z-index: 99;
   width: 150px;
   margin-top: 5px;
   transform: translateX(150px);
@@ -102,8 +103,15 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transform: rotate(-135deg);
   margin-top: -9px;
 }
-@media(min-width: 610.5px) {
-  .sidebarIconToggle {
+
+@media(max-width: 610px) {
+  .menu {
       display: none;
   }
+  #logo-nome {
+      font-size: 25px;
+  }
+  
+  #logo-cargo {
+      font-size: 6px;
 }
