@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
 
 body {
@@ -37,7 +36,7 @@ body {
 
 #logo-nome {
     font-size: 35px;
-    font-family: 'PhotographSignature', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: bold;
     color: whitesmoke;
@@ -78,8 +77,12 @@ body {
     border-radius: 3px;
 }
 
-.canvas {
-    position: absolute;
+.barMenu {
+    border-left: solid 1px gray;
+}
+
+canvas {
+    position: fixed;
     top: 60px;
     left: 0;
     z-index: -1;
@@ -93,7 +96,7 @@ body {
     left: 0;
     z-index: 0;
     padding: 30px 10px 10px 30px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
 
