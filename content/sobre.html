@@ -12,7 +12,6 @@
             /* Habilitar o "background-color" para edição da página. */
             /* background-color: black; */
             color: white;
-            width: 80vw;
             padding: 20px 5px 10px 20px;
         }
 
@@ -21,25 +20,27 @@
             font-weight: bold;
             border-radius: 0.5vw;
             padding: 1vw 0.5vw;
-            margin: 0.5vw;
         }
 
         .soContent {
             font-size: 1.5vw;
             text-align: justify;
             border-radius: 0.5vw;
-            padding: 1vw;
-            margin-bottom: 1vw;
+            padding: 1vw 0.5vw 1vw 0.5vw;
             background-color: rgba(255, 255, 255, 0.05);
+            margin-bottom: 3vw;
+        }
+
+        .soContent p {
+            margin-left: 1.5vw;
         }
 
         .soTable {
             font-size: 1.5vw;
             border-radius: 0.5vw;
-            padding: 1vw;
-            margin: 0.5vw;
             border-collapse: collapse;
-            width: 70vw;
+            padding: 1vw 0.5vw;
+            margin-bottom: 3vw;
         }
 
         .top {
@@ -53,12 +54,12 @@
 
         .level {
             width: 14vw;
-            height: auto;
+            height: 14vw;
             border-radius: 1vw;
         }
 
         th {
-            padding: 1vw 2vw;
+            padding: 1vw 1vw;
             background-color: rgba(255, 255, 255, 0.05);
             color: white;
         }
@@ -69,11 +70,6 @@
             border-bottom: solid 0.3px gray;
             background-color: white;
             color: black;
-        }
-
-        ul {
-            width: 70vw;
-            text-align: justify;
         }
 
         @media(max-width: 610px) {
@@ -92,6 +88,10 @@
             th {
                 padding: 0.5vw 0.5vw;
             }
+
+            .small {
+                font-size: 10px;
+            }
         }
     </style>
 </head>
@@ -100,27 +100,27 @@
     <div>
         <div class="soTitle">Sobre meus serviços:</div>
         <div class="soContent">
-            <ul> Ofereço serviços técnicos de desenvolvimento de sites da internet, sistemas conforme demanda, ERP e
-                intranet.</ul>
-            <ul>Também ofereço serviços de elaboração e padronização de documentos para certificações ISO.</ul>
-            <ul>Plataformas para treinamentos internos e gestão das informações empresariais.</ul>
-            <ul>Ofereço também o
+            <p> Ofereço serviços técnicos de desenvolvimento de sites da internet, sistemas conforme demanda, ERP e
+                intranet.</p>
+            <p>Também ofereço serviços de elaboração e padronização de documentos para certificações ISO.</p>
+            <p>Plataformas para treinamentos internos e gestão das informações empresariais.</p>
+            <p>Ofereço também o
                 planejamento e implantação de hardware para servidores de pequeno porte para empresas ou pessoais, com
-                soluções Microsoft, Linux e virtualizações.</ul>  
+                soluções Microsoft, Linux e virtualizações.</p>  
         </div>
     </div>
     <div>
         <div class="soTitle">Sobre mim:</div>
         <div class="soContent">
-            <ul>Sou um desenvolvedor entusiasmado com tudo relacionado a tecnologia e experiente com desafios,
-                prazos e pressões.</ul>
-            <ul>Minha paixão pelo mundo Geek começou quando tive meu primeiro contato com um 386, foi uma sensação incrível,
-                daí foi só crescendo a paixão. </ul>
-            <ul>Atualmente tenho focado no desenvolvimento de sites, aplicativos da web e estudando dev para dispositivos 
+            <p>Sou um desenvolvedor entusiasmado com tudo relacionado a tecnologia e experiente com desafios,
+                prazos e pressões.</p>
+            <p>Minha paixão pelo mundo Geek começou quando tive meu primeiro contato com um 386, foi uma sensação incrível,
+                daí foi só crescendo a paixão. </p>
+            <p>Atualmente tenho focado no desenvolvimento de sites, aplicativos da web e estudando dev para dispositivos 
                 móveis. Busco sempre me aprimorar para escrever código de maneira eficiente, melhorar códigos legados e 
-                implementar novos recursos de acordo com as necessidades do cliente.</ul>
-            <ul>Antes de ser Dev eu trabalhava em empresas de engenharia, construção e montagem. Possuo mais de 10 anos de experiência 
-                em planejamento de projetos industrias, cadeia de suprimentos, inspeções e coordenação de execuções.</ul>
+                implementar novos recursos de acordo com as necessidades do cliente.</p>
+            <p>Antes de ser Dev eu trabalhava em empresas de engenharia, construção e montagem. Possuo mais de 10 anos de experiência 
+                em planejamento de projetos industrias, cadeia de suprimentos, inspeções e coordenação de execuções.</p>
         </div>
     <div>
         <div class="soTitle">Habilidades no Dev Web:</div>
@@ -128,21 +128,23 @@
             <thead>
                 <tr>
                     <th rowspan="2"></th>
-                    <th colspan="6" class="bold top">L E V E L</th>    
+                    <th colspan="5" class="bold top">L E V E L</th>    
                     </th>   
                 </tr>
                 <tr>
-                    <th><img class="level noBorder" src="https://hencan.github.io/portifolio/images/level/level00.gif" alt="Level 00"></th>
-                    <th><img class="level noBorder" src="https://hencan.github.io/portifolio/images/level/level01.gif" alt="Level 01"></th>
-                    <th><img class="level noBorder" src="https://hencan.github.io/portifolio/images/level/level02.gif" alt="Level 02"></th>
-                    <th><img class="level noBorder" src="https://hencan.github.io/portifolio/images/level/level03.gif" alt="Level 05"></th>
+                    <th><img class="level" src="https://hencan.github.io/portifolio/images/level/level00.gif" alt="Level 00"></th>
+                    <th><img class="level" src="https://hencan.github.io/portifolio/images/level/level01.gif" alt="Level 01"></th>
+                    <th><img class="level" src="https://hencan.github.io/portifolio/images/level/level02.gif" alt="Level 02"></th>
+                    <th><img class="level" src="https://hencan.github.io/portifolio/images/level/level03.gif" alt="Level 03"></th>
+                    <th><img class="level" src="https://hencan.github.io/portifolio/images/level/level04.gif" alt="Level 04"></th>
                 </tr>
                 <tr>
-                    <th class="bold">Em Destaque</th>
-                    <th>Esforçado</th>
-                    <th>Talentoso</th>
-                    <th>Profissional</th>
-                    <th>Master Chief</th>
+                    <th class="bold small">Em Destaque</th>
+                    <th class="small">Recruta</th>
+                    <th class="small">Proficiente</th>
+                    <th class="small">Talentoso</th>
+                    <th class="small">Profissional</th>
+                    <th class="small">Master Chief</th>
                 </tr>
             </thead>
             <tbody>
@@ -152,6 +154,7 @@
                     <td class="bold">✔</td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Javascript</td>
@@ -159,9 +162,11 @@
                     <td class="bold">✔</td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Node</td>
+                    <td></td>
                     <td class="bold">✔</td>
                     <td></td>
                     <td></td>
@@ -173,10 +178,12 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Gulp</td>
                     <td class="bold">✔</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -187,9 +194,11 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Jquery</td>
+                    <td></td>
                     <td class="bold">✔</td>
                     <td></td>
                     <td></td>
@@ -201,11 +210,13 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>React Web</td>
-                    <td></td>
                     <td class="bold">✔</td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -215,9 +226,11 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Mysql</td>
+                    <td></td>
                     <td class="bold">✔</td>
                     <td></td>
                     <td></td>
@@ -229,6 +242,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Express</td>
@@ -236,30 +250,26 @@
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Git & Github</td>
+                    <td>Git</td>
                     <td></td>
                     <td class="bold">✔</td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
             </tbody>
         </table>
-        <ul>Eu realmente gostaria de melhorar essas habilidades e aprender ainda mais. 
-            É por isso que estou aqui. É por isso que estou disponível para conhecer lugares que me ajudarão 
-            a conseguir isso.
-            </ul>
     </div>
     <div>
         <div class="soTitle">Licenças e Certificados:</div>
         <div class="soContent">
-            <ul>
-                <li>Curso de Desenvolvedor Full Stack na Cod3r</li>
-                <li>Curso no Google Grasshooper</li>
-                <li>Curso no Sololearn</li>
-                <ul>Nota: Terá atualização futura com certificados e listagem completa</ul>
-            </ul>
+                <p>Curso de Desenvolvedor Full Stack na Cod3r</p>
+                <p>Curso no Google Grasshooper</p>
+                <p>Curso no Sololearn</p>
+                <p>Nota: Teremos atualização futura com certificados e listagem completa</p>
         </div>
     </div>
 </body>
