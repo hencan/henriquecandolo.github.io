@@ -5,75 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <style>
-        .cv {
+        .co {
             display: flex;
             flex-direction: column;
+            /* Habilitar o "background-color" para edição da página. */
             /* background-color: black; */
             color: white;
             padding: 20px 10px 10px 20px;
         }
 
-        .cvTitle {
+        .coTitle {
             font-size: 1.5vw;
             font-weight: bold;
-            border-bottom: solid 0.1vw rgba(22, 22, 22, 0.205);
             border-radius: 0.5vw;
-            padding: 0.5vw;
+            padding: 1.5vw 0.5vw;
             margin: 0.5vw;
         }
-        .cvContent {
+        .coContent {
             font-size: 1.5vw;
+            text-align: justify;
             border-radius: 0.5vw;
             padding: 1vw;
-            margin: 0.5vw;
+            margin-bottom: 1vw;
+            background-color: rgba(255, 255, 255, 0.05);
         }
-        .cvContact {
-            width: 90vw;
+        .coContact {
             font-size: 1.5vw;
+            text-align: justify;
             border-radius: 0.5vw;
             padding: 1vw;
-            margin: 0.5vw;
-            background-color: white;
-            color: black;
+            margin-bottom: 1vw;
+            background-color: rgba(255, 255, 255, 0.05);
         }
 
-        .cvContact li {
+        .coContact li {
             font-weight: bold;
+        }
+
+        .coContact ul {
+            font-size: 2vw;
+        }
+
+        .coContact img {
+            width: 30px;
+            border-radius: 1vw;
+            background-color: rgba(255, 255, 255, 0.05);
         }
 
         @media(max-width: 610px) {
-            .cvTitle {
+            .coTitle {
                 font-size: 14px;
             }
 
-            .cvContent {
+            .coContent {
                 font-size: 14px;
             }
 
-            .cvContact {
+            .coContact {
                 font-size: 14px;
+            }
+
+            .coContact ul {
+                font-size: 16px;
             }
         }
 
     </style>
 </head>
-<body class="cv">
-            <div class="cvTitle">
+<body class="co">
+            <div class="coTitle">
                 Acredito que meu trabalho contribua para o alcance dos objetivos da empresa. Estou muito animado com a oportunidade de trabalhar juntos.
             </div>
-            <div class="cvContact">
+            <div class="coContact">
                 <li>Telefone e Whatsapp:</li>
                 <ul>+55 (51) 9 8222-6966</ul>
-                <li>Email:</li>
+                <li>Email Microsoft e Skipe:</li>
                 <ul>hen.can@hotmail.com</ul>
-                <li>Google email e Duo:</li>
-                <ul>hen.candolo@gmail.com</ul>
-                <ul>Tenho a impressão de que sua empresa é uma empresa moderna e dinâmica que gosta de enfrentar 
+                <li>Gmail e Google Duo:</li>
+                <ul>hen.candolo@gmail.com</ul>    
+            </div>
+            <div class="coTitle">
+                Mais um minutinho seu...
+            </div>
+            <div class="coContent">
+                    Tenho a impressão de que sua empresa é uma empresa moderna e dinâmica que gosta de enfrentar 
                     desafios. Ok, é exatamente isso que eu tenho procurado. Gostaria que você se sentisse à vontade 
                     para me enviar uma mensagem para que possamos conversar um pouco mais sobre como podemos alcançar 
                     resultados juntos. Com minha determinação, paixão pelo desenvolvimento web e capacidade de 
                     adaptação a novas situações, acredito que sou um bom candidato como desenvolvedor web na sua 
-                    empresa.</ul>     
+                    empresa.
             </div>
         </div>
 </body>

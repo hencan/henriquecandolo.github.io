@@ -8,52 +8,67 @@
         .po {
             display: flex;
             flex-direction: column;
-            background-color: black;
+            /* Habilitar o "background-color" para edição da página. */
+            /* background-color: black; */
             color: white;
             padding: 20px 10px 10px 20px;
         }
 
         .divisor {
+            padding: 1vw;
             border-top: solid 1px white;
             border-bottom: solid 1px white;
         }
 
-
-        .poArea1 {
-            width: 70vw;
-        }
-
         .poTitle {
-            font-size: 2vw;
+            font-size: 1.5vw;
             font-weight: bold;
-            border-bottom: solid 0.1vw rgba(22, 22, 22, 0.205);
             border-radius: 0.5vw;
-            padding: 0.5vw;
+            padding: 1.5vw 0.5vw;
             margin: 0.5vw;
         }
         .poContent {
-            font-size: 2vw;
+            font-size: 1.5vw;
+            text-align: justify;
             border-radius: 0.5vw;
             padding: 1vw;
-            margin: 0.5vw;
+            margin-bottom: 1vw;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .imageTemplate {
+            width: 80vw;
+            height: auto;
+            padding: 1vw;
+            background-color: white;
+            border-radius: 1vw;
+            margin-left: 3vw;
+        }
+
+        .imageTemplate img {
+            width: 20vw;
+            height: auto;
+            margin-left: 30vw;
         }
 
         @media(max-width: 610px) {
             .poTitle {
-                font-size: 20px;
+                font-size: 14px;
             }
 
             .poContent {
-                font-size: 20px;
+                font-size: 14px;
             }
         }
 
     </style>
 </head>
 <body class="po">
-    <div class="poArea1">
         <div class="divisor">
-            <div class="poTitle">Programa: Portal de Planejamento</div>
+            <div class="imageTemplate">
+                <img src="https://hencan.github.io/portifolio/images/templates/template00.jpg" alt="">
+            </div>
+            <div class="poTitle">Site Dinâmico | "Portal de Planejamento"</div>
             <div class="poContent">Criar um portal semelhante ao GlassDoor ou LinkedIn, porém com área de empregos, com orientações de currículo e
                 vasto cadastro de industrias e empresas, cadastro de profissionais para ter acesso a modelos de documentos,
                 treinamentos e cursos, ferramentas on-line...
@@ -63,12 +78,61 @@
                 Ter índices...</div> 
         </div>
         <div class="divisor">
-            <div class="poTitle">**Programa: Calculadora com recibos</div>
+            <div class="imageTemplate">
+                <img src="https://hencan.github.io/portifolio/images/templates/template01.jpg" alt="">
+            </div>
+            <div class="poTitle">Site Estático | "Calculadora com recibos"</div>
             <div class="poContent">Será uma calculadora completa com opção de emissão do histórico, futuramente com personalização de campos...
 
                 Web, Android...</div>
         </div>
         <div class="divisor">
+            <div class="imageTemplate">
+                <img src="https://hencan.github.io/portifolio/images/templates/template02.jpg" alt="">
+            </div>
+            <div class="poTitle">Site Dinâmico | "NutriCalc??"</div>
+            <div class="poContent"> Sistema web e Android para gestão de clientes, receitas e prontuários.
+
+                Profissional:
+                Cadastro de clientes
+                Cadastro de alimentos
+                Chat
+                Receitas de alimentações
+                Histórico de Prontuários/Consultas
+                Gráficos de acompanhamentos de metas/resultados/pesos/dimensões...
+                Agenda de consulta/revisões (com função de lembrar-me)
+                Atualizar cadastro - usuário
+            
+                Usuários:
+                Home de noticias e feed de novidades
+                Chat
+                Agenda de consulta/revisões (com função de lembrar-me)
+                Gráficos de acompanhamentos de metas/resultados/pesos/dimensões...
+                Telefones utéis (Samu...)
+            
+                Perguntas e respostas.
+            </div>
+        </div>
+        <div class="divisor">
+            <div class="imageTemplate">
+                <img src="https://hencan.github.io/portifolio/images/templates/template03.jpg" alt="">
+            </div>
+            <div class="poTitle">Site Estático | "Hora de Dormir"</div>
+            <div class="poContent">Penso em um programa com cantigas de ninar, inicialmente com canções nacionais conhecidas, numa segunda etapa
+                descobrir as cantigas por região, e por ai vai! Principal: As cantigas poderão ser instrumentais ou cantadas por
+                mulheres que estejam colocando seus filhos para dormir.
+            
+                Criar sistema de assistir propaganda por prêmios, como créditos ou cartas de presentes temporários.</div>
+        </div>
+        <div class="divisor">
+            <div class="imageTemplate">
+                <img src="https://hencan.github.io/portifolio/images/templates/template04.jpg" alt="">
+            </div>
+            <div class="poTitle">Site Dinâmico | "Solução Sharepoint ou semelhante"</div>
+            <div class="poContent">Software que faça gestão completa de uma empresa;
+                Pensar em inteligências para simular funcionários, tipo rh, financeiro, adm…</div>
+        </div>
+                <!-- <div class="divisor">
             <div class="poTitle">**Programa: Sincronizados</div>
             <div class="poContent">Este app sincroniza as pessoas que marcaram compromissos entre si, poderá verificar se o outro lembra do
                 compromisso, que horas colocou o alarme, possibilidade de ver onde o outro está pelo mapa, e etc</div>
@@ -107,52 +171,6 @@
                 solução.
             
                 Será para o publico de empresas de pequeno, médio ou grande porte? Ou todos?</div>
-        </div>
-        <div class="divisor">
-            <div class="poTitle">**Programa: Hora de Dormir</div>
-            <div class="poContent">Penso em um programa com cantigas de ninar, inicialmente com canções nacionais conhecidas, numa segunda etapa
-                descobrir as cantigas por região, e por ai vai! Principal: As cantigas poderão ser instrumentais ou cantadas por
-                mulheres que estejam colocando seus filhos para dormir.
-            
-                Criar sistema de assistir propaganda por prêmios, como créditos ou cartas de presentes temporários.</div>
-        </div>
-        <div class="divisor">
-            <div class="poTitle">**Programa: NutriCal??</div>
-            <div class="poContent"> Sistema web e Android para gestão de clientes, receitas e prontuários.
-
-                Profissional:
-                Cadastro de clientes
-                Cadastro de alimentos
-                Chat
-                Receitas de alimentações
-                Histórico de Prontuários/Consultas
-                Gráficos de acompanhamentos de metas/resultados/pesos/dimensões...
-                Agenda de consulta/revisões (com função de lembrar-me)
-                Atualizar cadastro - usuário
-            
-                Usuários:
-                Home de noticias e feed de novidades
-                Chat
-                Agenda de consulta/revisões (com função de lembrar-me)
-                Gráficos de acompanhamentos de metas/resultados/pesos/dimensões...
-                Telefones utéis (Samu...)
-            
-                Perguntas e respostas.
-            </div>
-        </div>
-        <div class="divisor">
-            <div class="poTitle">**Programa: Solução Sharepoint ou semelhante</div>
-            <div class="poContent">Software que faça gestão completa de uma empresa;
-                Pensar em inteligências para simular funcionários, tipo rh, financeiro, adm…</div>
-        </div>
-        <div class="divisor">
-            <div class="poTitle">Programa: Launcher Agenda</div>
-            <div class="poContent">Será um Launcher que irá transformar o tablet ou celular numa agenda</div>
-        </div>
-        <div class="divisor">
-            <div class="poTitle">Programa: Sistema EAD</div>
-            <div class="poContent">Com base no EyeOs será desenvolvido um sistema para EAD.</div>
-        </div>
-    </div>
+        </div> -->
 </body>
 </html>
