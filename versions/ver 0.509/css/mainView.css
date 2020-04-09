@@ -15,7 +15,7 @@ body {
     width: 100vw;
     box-sizing: content-box;
     position: fixed;
-    z-index: 97;
+    z-index: 99;
 }
 
 .cabecalho a {
@@ -101,7 +101,7 @@ canvas {
 }
 
 @media(min-width: 610.5px) {
-    .menu-burger {
+    .sidebarIconToggle {
         display: none;
     }
   }

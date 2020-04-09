@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTIFOLIO</title>
-    <!-- <link rel="stylesheet" href="font/font.css"> -->
+    <link rel="stylesheet" href="font/oswald/font.css">
     <link rel="stylesheet" href="css/mainView.css">
     <link rel="stylesheet" href="css/mobileView.css">
     <link rel="stylesheet" href="css/welcome.css">
@@ -26,20 +26,18 @@
             </ul>
         </nav>
         <!-- Início do teste de menu toggle -->
-        <div class="menu-burger" onclick={openClose()}>
-            <div class="bar-menu-burger"></div>
-            <div class="bar-menu-burger"></div>
-            <div class="bar-menu-burger"></div>
-        </div>
-        <div class="sidebarMenu">
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
             <ul class="sidebarMenuInner">
                 <li><a href="content/welcome.html">Home</a></li>
                 <li><a href="content/sobre.html">Sobre</a></li>
                 <li><a href="content/portifolio.html">Portifólio</a></li>
                 <li><a href="content/contato.html">Contato</a></li>
-            </ul>
-        </div>
-        <div class="menu-background" onclick={openClose()}></div>
         <!-- Fim do teste de menu toggle --> 
     </header>
     <canvas id="c"></canvas>
@@ -64,6 +62,5 @@
     </section>
     <script src="script/mainPage.js"></script>
     <script src="content/neonCodepen/neon.js"></script>
-    <script src="script/openCloseMenu.js"></script>
 </body>
 </html>
