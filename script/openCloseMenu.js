@@ -1,7 +1,7 @@
 var open = 0
 function openClose() {
     if (open == 1) {
-        document.querySelector(".sidebarMenu").style.right = -210 + "px"
+        document.querySelector(".sidebarMenu").style.right = -155 + "px"
         document.querySelector(".menu-background").style.right = -10000 + "px"
         open = 0
     } else {

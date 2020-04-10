@@ -12,62 +12,44 @@
 .bar-menu-burger {
   border: solid 1px white;
   width: 20px;
-  height: 2px;
+  height: 2.5px;
   margin: 5px 4px;
   background: white;
 }
 
 .sidebarMenu {
-  background-color: white;
-  border: solid 0.5px black;
-  width: 200px;
-  height: 200px;
   position: fixed;
   top: 65px;
-  right: -210px;
+  right: -155px;
+  width: 150;
   display: flex;
   flex-direction: column;
   transition: linear 300ms;
   z-index: 98;
 }
 
-.sidebarMenu span {
-  width: 235px;
-  height: 30px;
-  margin: 5px 5px;
-  cursor: pointer;
-}
-
-.sidebarMenuInner {
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid white;
-}
-.sidebarMenuInner li {
+.sidebarMenu div {
+  background-color: white;
+  border: solid 0.5px black;
   list-style: none;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 20px;
   cursor: pointer;
-  border-bottom: 1px solid black;
-  background-color: white;
+  padding: 12px 0px;
 }
-.sidebarMenuInner li span {
-  display: block;
-  font-size: 10px;
+
+.sidebarMenu div a {
   color: black;
-}
-.sidebarMenuInner li a {
-  color: black;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
   cursor: pointer;
   text-decoration: none;
+  margin: 15px;
 }
+
 .menu-background {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0;
   right: -100vw;

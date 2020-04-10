@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTIFOLIO</title>
-    <!-- <link rel="stylesheet" href="font/font.css"> -->
     <link rel="stylesheet" href="css/mainView.css">
     <link rel="stylesheet" href="css/mobileView.css">
     <link rel="stylesheet" href="css/welcome.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="logo">
@@ -17,7 +18,7 @@
                 <div id="logo-cargo">Web Developer (Front & Backend)</div>
             </a>
         </div>
-       <nav class="menu">
+        <nav class="menu">
             <ul>
                 <li><a href="content/welcome.html">Home</a></li>
                 <li class="barMenu"><a href="content/sobre.html">Sobre</a></li>
@@ -32,15 +33,13 @@
             <div class="bar-menu-burger"></div>
         </div>
         <div class="sidebarMenu">
-            <ul class="sidebarMenuInner">
-                <li onclick={openClose()}><a href="content/welcome.html">Home</a></li>
-                <li onclick={openClose()}><a href="content/sobre.html">Sobre</a></li>
-                <li onclick={openClose()}><a href="content/portifolio.html">Portifólio</a></li>
-                <li onclick={openClose()}><a href="content/contato.html">Contato</a></li>
-            </ul>
+            <div onclick={openClose()}><a href="content/welcome.html">Home</a></div>
+            <div onclick={openClose()}><a href="content/sobre.html">Sobre</a></div>
+            <div onclick={openClose()}><a href="content/portifolio.html">Portifólio</a></div>
+            <div onclick={openClose()}><a href="content/contato.html">Contato</a></div>
         </div>
         <div class="menu-background" onclick={openClose()}></div>
-        <!-- Fim do teste de menu toggle --> 
+        <!-- Fim do teste de menu toggle -->
     </header>
     <canvas id="c"></canvas>
     <section id='content'>
@@ -66,4 +65,5 @@
     <script src="content/neonCodepen/neon.js"></script>
     <script src="script/openCloseMenu.js"></script>
 </body>
+
 </html>
