@@ -15,30 +15,33 @@
         .soTitle {
             font-size: 2vw;
             font-weight: bold;
-            border-radius: 0.5vw;
             padding: 0.2vw 0.2vw;
             margin: 2vw 0.2vw;
             color: white;
-            background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .soBoard {
+            background-color: rgba(23, 25, 28, 0.85);
+            margin: 0.25vw 0vw;
+            border-radius: 0.25vw;
+
         }
 
         .soSubtitle {
             font-size: 1.5vw;
             font-weight: bold;
-            border-radius: 0.5vw;
+            border-radius: 0.25vw;
             padding: 0.2vw;
             margin: 0.2vw;
             color: rgb(46, 191, 255);
-            background-color: rgba(0, 0, 0, 0.85);
         }
         .soContent {
             font-size: 1.5vw;
             text-align: left;
-            border-radius: 0.5vw;
+            border-radius: 0.25vw;
             padding: 0.5vw;
             margin: 0.2vw;
             color: white;
-            background-color: rgba(0, 0, 0, 0.85);
             margin-bottom: 1.5vw;
         }
 
@@ -49,6 +52,15 @@
             width: 93vw;
             margin-bottom: 1.5vw;
 
+        }
+
+        .tableSubtitle {
+            font-size: 1.5vw;
+            font-weight: bold;
+            padding: 0.2vw;
+            margin: 0.2vw;
+            color: rgb(46, 191, 255);
+            text-align: left;
         }
 
         .bold {
@@ -63,7 +75,7 @@
 
         th {
             color: white;
-            background-color: rgba(0, 0, 0, 0.85);
+            background-color: rgba(23, 25, 28, 0.85);
         }
 
         td {
@@ -100,7 +112,7 @@
 
 <body class="so">
     <div class="soTitle">SOBRE</div>
-    <div>
+    <div class="soBoard">
         <div class="soSubtitle">Sobre meus serviços:</div>
         <div class="soContent">
             <p> Ofereço serviços técnicos de desenvolvimento de sites da internet, sistemas conforme demanda, ERP e
@@ -112,23 +124,26 @@
                 soluções Microsoft, Linux e virtualizações.</p>  
         </div>
     </div>
-    <div>
+    <div class="soBoard">
         <div class="soSubtitle">Sobre mim:</div>
         <div class="soContent">
             <p>Sou um desenvolvedor entusiasmado com tudo relacionado a tecnologia e experiente com desafios,
                 prazos e pressões.</p>
             <p>Minha paixão pelo mundo Geek começou quando tive meu primeiro contato com um 386, foi uma sensação incrível,
-                daí foi só crescendo a paixão. </p>
-            <p>Atualmente tenho focado no desenvolvimento de sites, aplicativos da web e estudando dev para dispositivos 
-                móveis. Busco sempre me aprimorar para escrever código de maneira eficiente, melhorar códigos legados e 
-                implementar novos recursos de acordo com as necessidades do cliente.</p>
+                daí foi só crescendo a paixão. Atualmente tenho focado no desenvolvimento de sites, aplicativos da web e 
+                estudando dev para dispositivos móveis. Busco sempre me aprimorar para escrever código de maneira eficiente, melhorar 
+                códigos legados e implementar novos recursos de acordo com as necessidades do cliente.</p>
             <p>Antes de ser Dev eu trabalhava em empresas de engenharia, construção e montagem. Possuo mais de 10 anos de experiência 
                 em planejamento de projetos industrias, cadeia de suprimentos, inspeções e coordenação de execuções.</p>
         </div>
+    </div>
     <div>
-        <div class="soSubtitle">Habilidades no Dev Web:</div>
+        <!-- <div class="soSubtitle soBoard">Habilidades em destaque:</div> -->
         <table class="soTable">
             <thead>
+                <tr>
+                    <th colspan="5" class="tableSubtitle">Habilidades em destaque:</th>
+                </tr>
                 <tr>
                     <th rowspan="2"></th>
                     <th colspan="5" class="bold">L E V E L</th>    
@@ -250,7 +265,7 @@
             </tbody>
         </table>
     </div>
-    <div>
+    <div class="soBoard">
         <div class="soSubtitle">Licenças e Certificados:</div>
         <div class="soContent">
                 <p>Curso de Desenvolvedor Full Stack na Cod3r</p>
