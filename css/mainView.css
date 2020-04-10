@@ -86,14 +86,11 @@ canvas {
 }
 
 #content {
-    color:  white;
     position: absolute;
     top: 60px;
     left: 0;
     z-index: 0;
-    padding: 30px 10px 10px 30px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    align-items: center;
 }
 
 @media(min-width: 610.5px) {

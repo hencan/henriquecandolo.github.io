@@ -1,4 +1,4 @@
-var w = (c.width = window.innerWidth * 0.8),
+var w = (c.width = window.innerWidth * 0.9),
   h = (c.height = window.innerHeight),
   ctx = c.getContext("2d"),
   opts = {
