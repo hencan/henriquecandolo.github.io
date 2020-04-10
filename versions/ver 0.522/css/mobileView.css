@@ -1,0 +1,74 @@
+.menu-burger {
+  border: solid 1px white;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.bar-menu-burger {
+  border: solid 1px white;
+  width: 20px;
+  height: 2.5px;
+  margin: 5px 4px;
+  background: white;
+}
+
+.sidebarMenu {
+  position: fixed;
+  top: 65px;
+  right: -155px;
+  width: 150;
+  display: flex;
+  flex-direction: column;
+  transition: linear 300ms;
+  z-index: 98;
+}
+
+.sidebarMenu div {
+  background-color: white;
+  border: solid 0.5px black;
+  list-style: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 12px 0px;
+}
+
+.sidebarMenu div a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.menu-background {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 90;
+  transition: linear 100ms;
+}
+
+@media(max-width: 610px) {
+  .menu {
+    display: none;
+  }
+
+  #logo-nome {
+      font-size: 30px;
+  }
+  
+  #logo-cargo {
+      font-size: 8px;
+  }
+}
