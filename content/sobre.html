@@ -9,43 +9,44 @@
         .so {
             display: flex;
             flex-direction: column;
-            /* Habilitar o "background-color" para edição da página. */
-            /* background-color: black; */
-            color: white;
-            padding: 20px 5px 10px 20px;
+        
         }
 
         .soTitle {
+            font-size: 2vw;
+            font-weight: bold;
+            border-radius: 0.5vw;
+            padding: 1vw 0.2vw;
+            margin: 0.2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .soSubtitle {
             font-size: 1.5vw;
             font-weight: bold;
             border-radius: 0.5vw;
-            padding: 1vw 0.5vw;
+            padding: 0.2vw;
+            margin: 0.2vw;
+            color: rgb(46, 191, 255);
+            background-color: rgba(0, 0, 0, 0.85);
         }
-
         .soContent {
             font-size: 1.5vw;
-            text-align: justify;
+            text-align: left;
             border-radius: 0.5vw;
-            padding: 1vw 0.5vw 1vw 0.5vw;
-            background-color: rgba(255, 255, 255, 0.05);
-            margin-bottom: 3vw;
-        }
-
-        .soContent p {
-            margin-left: 1.5vw;
+            padding: 0.5vw;
+            margin: 0.2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
         }
 
         .soTable {
             font-size: 1.5vw;
             border-radius: 0.5vw;
             border-collapse: collapse;
-            padding: 1vw 0.5vw;
-            margin-bottom: 3vw;
-        }
+            width: 93vw;
 
-        .top {
-            padding-bottom: 0.2vw;
-            border: none;
         }
 
         .bold {
@@ -53,27 +54,30 @@
         }
 
         .level {
-            width: 14vw;
-            height: 14vw;
-            border-radius: 1vw;
+            width: 13vw;
+            height: 13vw;
+            border-radius: 0.5vw;
         }
 
         th {
-            padding: 1vw 1vw;
-            background-color: rgba(255, 255, 255, 0.05);
             color: white;
+            background-color: rgba(0, 0, 0, 0.85);
         }
 
         td {
-            padding: 0.5vw;
             text-align: center;
-            border-bottom: solid 0.3px gray;
+            border: solid 0.5px gray;
+            border-radius: 0.25vw;
             background-color: white;
             color: black;
         }
 
         @media(max-width: 610px) {
             .soTitle {
+                font-size: 15px;
+            }
+
+            .soSubtitle {
                 font-size: 14px;
             }
 
@@ -85,20 +89,17 @@
                 font-size: 12px;
             }
 
-            th {
-                padding: 0.5vw 0.5vw;
-            }
-
             .small {
-                font-size: 10px;
+                font-size: 9.5px;
             }
         }
     </style>
 </head>
 
 <body class="so">
+    <div class="soTitle">SOBRE</div>
     <div>
-        <div class="soTitle">Sobre meus serviços:</div>
+        <div class="soSubtitle">Sobre meus serviços:</div>
         <div class="soContent">
             <p> Ofereço serviços técnicos de desenvolvimento de sites da internet, sistemas conforme demanda, ERP e
                 intranet.</p>
@@ -110,7 +111,7 @@
         </div>
     </div>
     <div>
-        <div class="soTitle">Sobre mim:</div>
+        <div class="soSubtitle">Sobre mim:</div>
         <div class="soContent">
             <p>Sou um desenvolvedor entusiasmado com tudo relacionado a tecnologia e experiente com desafios,
                 prazos e pressões.</p>
@@ -123,12 +124,12 @@
                 em planejamento de projetos industrias, cadeia de suprimentos, inspeções e coordenação de execuções.</p>
         </div>
     <div>
-        <div class="soTitle">Habilidades no Dev Web:</div>
+        <div class="soSubtitle">Habilidades no Dev Web:</div>
         <table class="soTable">
             <thead>
                 <tr>
                     <th rowspan="2"></th>
-                    <th colspan="5" class="bold top">L E V E L</th>    
+                    <th colspan="5" class="bold">L E V E L</th>    
                     </th>   
                 </tr>
                 <tr>
@@ -248,7 +249,7 @@
         </table>
     </div>
     <div>
-        <div class="soTitle">Licenças e Certificados:</div>
+        <div class="soSubtitle">Licenças e Certificados:</div>
         <div class="soContent">
                 <p>Curso de Desenvolvedor Full Stack na Cod3r</p>
                 <p>Curso no Google Grasshooper</p>

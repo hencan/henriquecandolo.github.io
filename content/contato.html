@@ -10,47 +10,57 @@
             flex-direction: column;
             /* Habilitar o "background-color" para edição da página. */
             /* background-color: black; */
-            color: white;
-            padding: 20px 5px 10px 20px;
         }
 
         .coTitle {
+            font-size: 2vw;
+            font-weight: bold;
+            border-radius: 0.5vw;
+            padding: 1vw 0.2vw;
+            margin: 0.2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .coSubtitle {
             font-size: 1.5vw;
             font-weight: bold;
             border-radius: 0.5vw;
-            padding: 1.5vw 0.5vw;
+            padding: 0.2vw;
+            margin: 0.2vw;
+            color: rgb(46, 191, 255);
+            background-color: rgba(0, 0, 0, 0.85);
         }
         .coContent {
             font-size: 1.5vw;
-            text-align: justify;
+            text-align: left;
             border-radius: 0.5vw;
-            padding: 1vw 0.5vw 2vw 0.5vw;
-            background-color: rgba(255, 255, 255, 0.05);
-            margin-bottom: 3vw;
+            padding: 0.5vw;
+            margin: 0.2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
         }
         .coContact {
             font-size: 1.5vw;
-            text-align: justify;
-            border-radius: 0.5vw;
-            padding: 1vw 0.5vw 2vw 0.5vw;
-            margin-bottom: 3vw;
-            background-color: rgba(255, 255, 255, 0.05);
+            text-align: left;
+            border-radius: 0.2vw;
+            padding: 0.5vw;
+            margin: 0.2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
         }
 
         .coContact p {
-            margin-left: 2vw;
             font-size: 2vw;
             font-weight: bold;
         }
 
-        .coContact img {
-            width: 30px;
-            border-radius: 1vw;
-            background-color: rgba(255, 255, 255, 0.05);
-        }
-
         @media(max-width: 610px) {
             .coTitle {
+                font-size: 15px;
+            }
+            
+            .coSubtitle {
                 font-size: 14px;
             }
 
@@ -70,7 +80,8 @@
     </style>
 </head>
 <body class="co">
-            <div class="coTitle">
+    <p class="coTitle">SOBRE</p>
+            <div class="coSubtitle">
                 <p>
                     Acredito que posso contribuir com meu trabalho para o alcance dos objetivos da empresa.
                 </p>
@@ -79,17 +90,14 @@
                 </p>
             </div>
             <div class="coContact">
-                <p>Telefone e Whatsapp:</p>
-                <p>+55 (51) 9 8222-6966</p>    
+                <p>Telefone e Whatsapp: +55 (51) 9 8222-6966</p>  
             </div>
             <div class="coContact">
-                <p>Email e Skipe:</p>
-                <p>hen.can@hotmail.com</p>
-                <p>Gmail e Google Duo:</p>
-                <p>hen.candolo@gmail.com</p>    
+                <p>Email e Skipe: hen.can@hotmail.com</p>
+                <p>Gmail e Google Duo: hen.candolo@gmail.com</p>
             </div>
-            <div class="coTitle">
-                <p>Mais um minutinho seu...</p>  
+            <div class="coSubtitle">
+                Mais um minutinho seu...
             </div>
             <div class="coContent">
                 <p>
