@@ -40,6 +40,10 @@
 }
 
 @media(max-width: 610px) {
+    .welcome {
+        margin-top: 2vw;
+    }
+    
     #welcome1 {
         font-size: 46px;
     }
@@ -54,5 +58,8 @@
 
     #welcome4 {
         font-size: 60px;
+    }
+    #credit {
+        font-size: 10px;
     }
 }
