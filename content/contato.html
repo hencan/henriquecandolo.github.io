@@ -50,8 +50,8 @@
         }
         .buttonMensage {
             width: 40px;
-            height: auto;
-            margin: 2px;
+            height: 35px;
+            margin: 1px 2px;
             font-size: 8px;
             max-width: 100%;
 	        -moz-transition: all 0.3s;
@@ -61,7 +61,7 @@
         .buttonMensage:hover {
             -moz-transform: scale(1.1);
 	        -webkit-transform: scale(1.1);
-	        transform: scale(1.5);
+	        transform: scale(1.2);
         }
         .coFormContact {
             display: block;
@@ -110,16 +110,16 @@
 <body class="co">
     <div class="coTitle">Início > Contato</div>
     <div class="coBoard">
-        <div class="coSubtitle">Sinta-se à vontade para me enviar uma mensagem pelos canais abaixo ou por aqui.</div>
-        <div><img class="buttonMensage" onclick={openCloseMensage()} src="https://hencan.github.io/portifolio/images/icons/messages-icon-2.png" alt="">
+        <div class="coSubtitle">Sinta-se à vontade para me contatar ou enviar msg.</div>
+        <div class="coContact"><span class="coTopic">Enviar msg!</span><img class="buttonMensage" onclick={openCloseMensage()} src="https://hencan.github.io/portifolio/images/icons/messages-icon-2.png" alt="">
             <div class="coDivContact">
                 <div class="coFormContact" onclick={openCloseMensage()}>
-                    <button class="buttonMensage">Fechar</button>
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                    <button class="buttonMensage">Fechar</button>
                 </div>
                 <div class="coFormContactMobile" onclick={openCloseMensage()}>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="340" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
                     <button class="buttonMensage">Fechar</button>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="350" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
                 </div>
             </div>
         </div>
