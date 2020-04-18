@@ -64,13 +64,13 @@
 	        transform: scale(1.5);
         }
         .coFormContact {
-            position: absolute;
-            top: 70px;
-            left: -600px;
-            width: 400px;
-            background-color: white;
-            border: solid 2px rgb(46, 191, 255);
-            border-radius: 5px;
+            display: block;
+        }
+        .coFormContactMobile {
+            display: none;
+        }
+        .coDivContact {
+            display: none;
         }
         /* Configuração da visualização mobile: */
         @media(max-width: 610px) {
@@ -98,22 +98,36 @@
             .coTopic {
                 font-size: 14px;
             }
+            .coFormContact {
+                display: none;
+            }
+            .coFormContactMobile {
+                display: block;
+            }
         }
     </style>
 </head>
 <body class="co">
     <div class="coTitle">Início > Contato</div>
     <div class="coBoard">
-        <div class="coSubtitle">Sinta-se à vontade para me enviar uma mensagem pelos canais abaixo ou por aqui.<img class="buttonMensage" onclick={openCloseMensage()} src="https://hencan.github.io/portifolio/images/icons/messages-icon-2.png" alt=""></div>
+        <div class="coSubtitle">Sinta-se à vontade para me enviar uma mensagem pelos canais abaixo ou por aqui.</div>
+        <div><img class="buttonMensage" onclick={openCloseMensage()} src="https://hencan.github.io/portifolio/images/icons/messages-icon-2.png" alt="">
+            <div class="coDivContact">
+                <div class="coFormContact" onclick={openCloseMensage()}>
+                    <button class="buttonMensage">Fechar</button>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="600" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                </div>
+                <div class="coFormContactMobile" onclick={openCloseMensage()}>
+                    <button class="buttonMensage">Fechar</button>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="350" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                </div>
+            </div>
+        </div>
         <div class="coContact"><span class="coTopic">Telefone e Whatsapp:</span> +55(51)98222-6966</div>
         <div class="coContact"><span class="coTopic">Email e Skipe:</span> hen.can@hotmail.com</div>
         <div class="coContact"><span class="coTopic">Gmail e Duo:</span> hen.candolo@gmail.com</div>
         <div class="coContact"><span class="coTopic">Github:</span> github.com/hencan</div>
         <div class="coContact"><span class="coTopic">LinkedIn:</span> linkedin.com/in/hencan</div>
-    </div>
-    <div class="coFormContact" onclick={openCloseMensage()}>
-        <button class="buttonMensage">Fechar</button>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSendfth8_mMtAkH0Dtoy5xa1YONSpUP36tA_7FOtc8O4skd3A/viewform?embedded=true" width="400" height="750" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
     </div>
 </body>
 </html>
