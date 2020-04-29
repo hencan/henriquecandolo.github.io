@@ -31,7 +31,7 @@ var w = (c.width = window.innerWidth),
   baseRad = (Math.PI * 2) / 6;
 
 
-ctx.fillStyle = "black";
+ctx.fillStyle = "rgb(4, 11, 27)";
 ctx.fillRect(0, 0, w, h);
 
 function loop() {
@@ -52,10 +52,10 @@ function loop() {
   lines.map(function (line) {
     line.step();
   });
-};
+}
 function Line() {
   this.reset();
-};
+}
 Line.prototype.reset = function () {
   this.x = 0;
   this.y = 0;
@@ -138,7 +138,7 @@ loop();
 window.addEventListener("resize", function () {
   w = c.width = window.innerWidth;
   h = c.height = window.innerHeight;
-  ctx.fillStyle = "black";
+  ctx.fillStyle = "rgb(4, 11, 27)";
   ctx.fillRect(0, 0, w, h);
 
   opts.cx = w / 2;
