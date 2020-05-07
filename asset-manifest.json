@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.35363c78.chunk.css",
-    "main.js": "/portifolio/static/js/main.25e14954.chunk.js",
-    "main.js.map": "/portifolio/static/js/main.25e14954.chunk.js.map",
+    "main.css": "/portifolio/static/css/main.80769575.chunk.css",
+    "main.js": "/portifolio/static/js/main.0ee1cf5f.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.0ee1cf5f.chunk.js.map",
     "runtime-main.js": "/portifolio/static/js/runtime-main.af465e72.js",
     "runtime-main.js.map": "/portifolio/static/js/runtime-main.af465e72.js.map",
     "static/js/2.4e5dc771.chunk.js": "/portifolio/static/js/2.4e5dc771.chunk.js",
     "static/js/2.4e5dc771.chunk.js.map": "/portifolio/static/js/2.4e5dc771.chunk.js.map",
     "index.html": "/portifolio/index.html",
-    "precache-manifest.03883eec3a1584959f0dbc3838c1715d.js": "/portifolio/precache-manifest.03883eec3a1584959f0dbc3838c1715d.js",
+    "precache-manifest.1f62eee8cc4ec0904b334e5a026e5b1e.js": "/portifolio/precache-manifest.1f62eee8cc4ec0904b334e5a026e5b1e.js",
     "service-worker.js": "/portifolio/service-worker.js",
-    "static/css/main.35363c78.chunk.css.map": "/portifolio/static/css/main.35363c78.chunk.css.map",
+    "static/css/main.80769575.chunk.css.map": "/portifolio/static/css/main.80769575.chunk.css.map",
     "static/js/2.4e5dc771.chunk.js.LICENSE.txt": "/portifolio/static/js/2.4e5dc771.chunk.js.LICENSE.txt",
     "static/media/commentCalcScreen0.png": "/portifolio/static/media/commentCalcScreen0.0ef6b70e.png",
     "static/media/commentCalcScreen1.png": "/portifolio/static/media/commentCalcScreen1.3dc2971e.png",
@@ -19,11 +19,11 @@
     "static/media/commentCalcScreen4.png": "/portifolio/static/media/commentCalcScreen4.4da0b531.png",
     "static/media/commentCalcScreen5.png": "/portifolio/static/media/commentCalcScreen5.519570dd.png",
     "static/media/commentCalcScreen6.png": "/portifolio/static/media/commentCalcScreen6.02f6cecf.png",
+    "static/media/fotoHenrique2.jpg": "/portifolio/static/media/fotoHenrique2.4fdd1cae.jpg",
     "static/media/level00.gif": "/portifolio/static/media/level00.094b9947.gif",
     "static/media/level01.gif": "/portifolio/static/media/level01.35336cbd.gif",
     "static/media/level02.gif": "/portifolio/static/media/level02.e77790e2.gif",
     "static/media/level03.gif": "/portifolio/static/media/level03.e13ee066.gif",
-    "static/media/obrigado.png": "/portifolio/static/media/obrigado.a8359a49.png",
     "static/media/template00.png": "/portifolio/static/media/template00.45ad5a3e.png",
     "static/media/template01.png": "/portifolio/static/media/template01.b116c48b.png",
     "static/media/template02.png": "/portifolio/static/media/template02.b613a0d4.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.af465e72.js",
     "static/js/2.4e5dc771.chunk.js",
-    "static/css/main.35363c78.chunk.css",
-    "static/js/main.25e14954.chunk.js"
+    "static/css/main.80769575.chunk.css",
+    "static/js/main.0ee1cf5f.chunk.js"
   ]
 }
