@@ -1,5 +1,5 @@
-# Projeto de Portfólio feito em Angular CLI
+# Redirecionamento para Portfólio Pessoal
 
-Este é o projeto piloto em Angular e de certa forma servirá como base para registro e compartilhamento de informações durante a criação de novos projetos, através das áreas de projetos e blog.
+Devido a publicação de uma versão do currículo com o endereço url incorreto do portfólio.
 
-Breve estarei descrevendo todas as etapas percorridas durante a criação do projeto...
+Previsto encerrar este repositório em breve.
