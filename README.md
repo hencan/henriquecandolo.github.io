@@ -1,5 +1,5 @@
 # Redirecionamento para Portfólio Pessoal
 
-Devido a publicação de uma versão do currículo com o endereço url incorreto do portfólio.
+Há algum tempo se fazia necessário a correção da escrita do nome do repositório *(portifolio -> portfolio)*, portanto este repo foi designado para redirecionar ao novo com a escrita correta.
 
 Previsto encerrar este repositório em breve.
